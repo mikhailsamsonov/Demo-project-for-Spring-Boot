@@ -1,0 +1,18 @@
+Create an application with the following endpoints
+1) to persist the User details with the following details
+{
+"name" : "Anilkumar",
+"mobileNumber" : "9999999789",
+"email" : "email@gmail.com",
+"address" : "Bangalore"
+}
+2) To persist the user orders with the following details
+{
+"orderId" : "order-1",
+"userMobileNumber" : "9999999789",
+"products" : ["product1", "product2", "product3"],
+"orderTotal" : 150.00,
+"storeId" : "STORE-1"
+}
+3) to fetch the user mobile number who has ordered the given product the most.
+input : "product1" (product Id)
